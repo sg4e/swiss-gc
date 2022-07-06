@@ -21,5 +21,8 @@ void print_gecko(const char* fmt, ...);
 bool update_recent();
 int load_existing_entry(char *entry);
 bool deleteFileOrDir(file_handle* entry);
+u16 padsButtonsHeld();
+s8 padsStickX();
+s8 padsStickY();
 
 #endif 
